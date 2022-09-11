@@ -1,0 +1,12 @@
+
+git checkout -b 
+
+fast forward merges can only happen if there haven't been any commits
+on the original branch while the new branch is being worked on
+
+git checkout changes to another branch
+
+git branch -D deletes a branch
+
+merge conflicts happen when multiple commits happen and git cannot figure
+out what file or folder to choose
