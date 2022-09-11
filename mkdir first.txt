@@ -1,0 +1,36 @@
+mkdir first
+cd first
+touch person.txt
+mv person.txt another.txt
+cp another.txt copy.txt
+rm copy.txt
+cp -r first second
+rm -rf second
+
+
+It lists information from the manual for the command.
+- D or Control ⌃-D to advance half a page - B or Control ⌃-B to go back one page -
+ U or Control ⌃-U to go back half a page
+ q to exit
+
+ the -l flag lists files in a list format and shows you more detail while the -a flag lists all
+  files and folders including hidden ones.
+
+option left/right
+
+control + e
+
+control + a
+
+
+the shell operates inside the terminal. the terminal just allows access to the shell while the shell
+is actually handling commands
+
+absolute path gives the whole path through each folder for where the location is
+
+a relative path starts with the current location
+
+-a -l -r , flags give additional functions to already existing commands
+
+r removes folders and goes through each one, f force removes 
+
