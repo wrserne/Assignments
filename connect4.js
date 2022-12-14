@@ -69,7 +69,7 @@ function findSpotForCol(x) {
 /** placeInTable: update DOM to place piece into HTML table of board */
 
 function placeInTable(y, x) {
-  const piece= documentcreateElement('div');
+  const piece= document.createElement('div');
   piece.classList.add('piece');
   piece.classList.add(`p${currPlayer}`);
   piece.style.top=-50 * (y+2);
