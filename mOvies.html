@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Movies</title>
+
+  <link rel="stylesheet" href="https://unpkg.com/mvp.css@1.12/mvp.css"> 
+  <link rel="stylesheet" href="mOvies.css" />
+  <style>
+    p {
+      background-image: url('Piturro-Vincent_SciFiFilm_07062022_AM-21.jpg');
+    }
+    </style>
+
+</head>
+
+<body>
+
+  <h1>Movie Rating App</h1>
+
+  <hr>
+  <form action="" id="form-movie">
+    <label for="title">Movie Title:</label>
+    <input type="text" name="title" id="movie-title" placeholder="Title">
+    <label for="rating">Movie Rating:</label>
+    <input type="number" name="rating" id="movie-rating" placeholder="0-10, 10 is best"><br>
+    <span id="msg">&nbsp;</span><br><br>
+    <button class="formbutton" id="button-add">Add Movie</button><br>
+  </form>
+  <hr>
+  <div class="movies">
+
+  </div>
+
+  <!--<script src="https://code.jquery.com/jquery-3.3.1.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+  <script src="mOvies.js"></script>
+
+</body>
+
+</html>
