@@ -1,0 +1,58 @@
+What is HTTP?
+
+-HTTP is a protocol for fetching resources such as HTML documents. 
+It is the foundation of any data exchange on the Web and it is a client-server 
+protocol, which means requests are initiated by the recipient, 
+usually the Web browser.
+
+
+What is a URL?
+
+-URL is one of the key concepts of the Web. It is the mechanism used by browsers to retrieve any 
+published resource on the web.
+
+URL stands for Uniform Resource Locator. A URL is nothing more than the address 
+of a given unique resource on the Web. In theory, each valid URL points to a unique resource. 
+
+
+What is DNS?
+-The Domain Name System (DNS) is the phonebook of the Internet. Humans access information online
+through domain names, like nytimes.com or espn.com. Web browsers interact through Internet Protocol
+(IP) addresses. DNS translates domain names to IP addresses so browsers can load Internet resources.
+
+What is a query string?
+A query string is the portion of a URL where data is passed to a web application and/or back-end database.
+
+
+What are two HTTP verbs and how are they different?
+GET and POST. GET allows a client to receive information from a server. POST allows the client to recieve
+the information and also edit it. 
+
+What is an HTTP request?
+An HTTP request is made from a client to a host located on the server in order to receive a 
+resource needed to build the content.
+When they make a request, clients use a URL (Uniform Resource Locator) that contains the information 
+needed to access the server resources.
+
+What is an HTTP response?
+The server returns a response to the client. The response contains status information about the 
+request and may also contain the requested content.
+
+What is an HTTP header? Give a couple examples of request and response headers you have seen.
+An HTTP header is a field of an HTTP request or response that passes additional context and metadata
+about the request or response. Examples include:
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-us,en;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 300
+Connection: keep-alive
+Cookie: PHPSESSID=r2t5uvjq435r4q7ib3vtdjq120
+Pragma: no-cache
+Cache-Control: no-cache
+
+What are the processes that happen when you type “http://somesite.com/some/page.html” into a browser?
+
+The browser sends an HTTP request to the server of the site, asking for the information, or HTML page
+titled page.html. The server then receives this request and will send the HTML page back to the client 
+side to display on the web page.
