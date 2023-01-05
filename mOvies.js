@@ -1,10 +1,3 @@
-/*
-Build an application that uses jQuery to do the following:
-  1. Contains a form with two inputs for a title and rating along with a button to submit the form.
-  2. When the form is submitted, capture the values for each of the inputs and append them to the 
-     DOM along with a button to remove each title and rating from the DOM.
-  3. When the button to remove is clicked, remove each title and rating from the DOM.
-*/
 
 function clearError() {
 
@@ -98,14 +91,7 @@ $("#button-add").on("click", function (event) {
 // handle the delete button click
 $(".movies").on("click", ".rmvbutton", function () {
 
-    // the event is added to the movies container, but the button we need to 
-    //  monitor for the click is .rmvbutton. 
-    // Ironically, the rmvbutton class was created just to style the button!
-    // jQuery properly determines 'this' is the button that was clicked so 
-    //  no event.target rot is needed.
 
-    //console.dir(event.target);
-    //console.log($(this).parent())
 
     $(this).parent().remove();
 
