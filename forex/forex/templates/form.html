@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <body>
+
+        <h2>HTML Forms</h2>
+
+        <form action="{{url_for('conversion')}}" method="post">
+            <label for="convert_from" name="convert_from"> Converting From:</label><br>
+            <input type="text" id="convert_from" name="convert_from"><br>
+            <label for="convert_to" name="convert_to">Converting To:</label><br>
+            <input type="text" id="convert_to" name="convert_to"><br>
+            <label for="amount">Amount:</label><br>
+            <input type="text" id="amount" name="amount"><br>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
